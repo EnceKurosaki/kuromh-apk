@@ -33,9 +33,6 @@ app/src/main
 4. Click **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 5. Install the generated APK on your rooted device.
 
-## How to Build (GitHub Actions)
-Push ke `main`/`master` atau jalankan workflow manual. APK hasil ada di **Artifacts**.
-Opsional: isi secrets `KEYSTORE_BASE64`, `KEYSTORE_PASSWORD`, `KEY_ALIAS` agar tanda tangan APK konsisten.
 
 ## Note
 Grant Root Access (Magisk/KernelSU) when asked, so the app can read/write the module
